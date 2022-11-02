@@ -1,0 +1,12 @@
+name: 'build-test'
+on: # rebuild any PRs and main branch changes
+  workflow_dispatch:
+
+jobs:
+  test: # make sure the action works on a clean machine without building
+    runs-on: [ self-hosted ]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: My Awesome
+        uses: actions-on-packages/my-awesome@1.0.5
