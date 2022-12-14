@@ -1,4 +1,4 @@
-name: 'AoP-demo-test'
+name: 'AoP-consume-test'
 on: # rebuild any PRs and main branch changes
   workflow_dispatch:
 
