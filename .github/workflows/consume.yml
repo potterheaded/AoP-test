@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: My Awesome
-        uses: actions-on-packages/demo-aop-action@1.0.6
+        uses: actions-on-packages/demo-aop-action@1.0.7
